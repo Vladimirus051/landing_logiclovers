@@ -5,7 +5,7 @@ services:
     platform: linux/amd64
     image: logiclovers/landing:latest_front_wb
     build:
-      context: .
+      context: front_land
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
