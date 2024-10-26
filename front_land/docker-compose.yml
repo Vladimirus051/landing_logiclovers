@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  frontend:
+    platform: linux/amd64
+    image: logiclovers/landing:latest_front_wb
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: front_land_wb

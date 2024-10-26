@@ -1,0 +1,15 @@
+{
+  "title": "Лендинг от команды LogicLovers",
+  "text": "Мы использовали React.js, Ant Design и Styled-components для создания современного и функционального интерфейса.",
+  "button": [
+    {
+      "title": "Исследовать",
+      "scrollTo": "forum"
+    },
+    {
+      "title": "Узнать больше",
+      "color": "#fff",
+      "path": "/software-principles"
+    }
+  ]
+}
