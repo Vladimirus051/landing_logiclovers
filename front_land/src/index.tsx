@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Switch} from "react-router-dom";
 
 // @ts-ignore
 import ReactDOM from "react-dom/client";
@@ -14,14 +14,14 @@ import AboutUs from "./components/AboutUs";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const App = () => (
     root.render(
-    <BrowserRouter >
+    <HashRouter >
         <Switch>
             <Route path="/privacy-policy" component={PrivacyPolicy} />
             <Route path="/software-principles" component={Index}/>
             <Route path="/about-us" component={AboutUs} />
             <Route path={'/'} component={Router} />
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
             )
 );
 App()
